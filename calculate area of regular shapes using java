@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class Shapes{
+public class void main (String args[]){
+  double rad,carea,width,height,length,arear,areat;
+Scanner input=new Scanner(System.in);
+System.out.println("input radius of circle:");
+r=input.nextDouble();
+areac=(r*r*Math.PI);
+System.out.println("area of circle="+areac);
+System.out.println("input width:");
+width=input.nextDouble();
+System.out.println("input height:");
+height=input.nextDouble();
+areat=(height*width)*0.5;
+System.out.println("area of triangle="+areat);
+System.out.println("input length:");
+length=input.nextDouble();
+arear=(length*width);
+System.out.println("area of rectangle="+arear);
